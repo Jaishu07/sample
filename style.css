@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+html ,body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background-color: red; */
+    padding:10px;
+    position: relative;
+    
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: rgb(229, 255, 0); */
+    border-bottom: 1px solid #FFF;
+    /* background-color: red; */
+
+    
+    
+}
+.nav h1:nth-last-child(1){
+    width: 50px;
+    height: 50px;
+    
+    /* background-color: red; */
+    background-color: aliceblue;
+    border-radius: 50%;
+    padding: 8px;
+    
+    
+}
+.nav a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #fff;
+    
+
+}
+.page1{
+    width: 100%;
+    height: 60%;
+    
+    background: linear-gradient(#60A9AF,#0c6385 );
+
+}
+.page2{
+    width: 100%;
+    height: 45%;
+    background-color:#82CFC7;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+
+
+}
+.heder {
+    width: 100%;
+    height:27vh;
+    /* background-color: red; */
+    position: relative;
+    margin-top: 5%;
+    /* background-color: red; */
+    /* background-color: red; */
+
+
+}
+.heder h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: #FFF;
+    font-size:2.5rem;
+
+}
+.heder p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.serch{
+    width: 50%;
+    height: 50px;
+    background-color: #FFF;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content:left;
+    margin-left: 25%;
+    border-radius: 50px;
+    backdrop-filter: 3px 4px black;
+    margin-top: 20px;
+
+}
+.serch i{
+    padding: 10px;
+    font-size: 30px;
+}
+.serch2{
+    width: 100px;
+    height: 40px;
+    background-color:#82CFC7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left:35% ;
+    border-radius: 50px;
+}
+.cards{
+    width: 100%;
+    height: 50%;
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+}
+.card1{
+    width: 25%;
+    height: 90%;
+    /* background-color: #ffffff43;
+    backdrop-filter:blur(4px); */
+    border-radius: 20px;
+    padding: 10px;
+    position: relative;
+    background: url('https://i.pinimg.com/564x/b4/3b/b0/b43bb0ba2a78272ab0df6f01cced6236.jpg');
+  
+}
+
+.card2{
+    width: 36%;
+    height: 90%;
+    background-color: #FFF;
+    border-radius: 20px;
+}
+.page3{
+    height: 100%;
+    width: 100%;
+}
